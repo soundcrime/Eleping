@@ -16,9 +16,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Eleping.ino" />
+    <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.Eleping.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EleringCert.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
